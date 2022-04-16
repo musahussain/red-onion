@@ -1,0 +1,27 @@
+.banner{
+    background-image: url(../../../images/bannerbackground.png);
+    width: 100%;
+    margin: 0 auto;
+    background-size: cover;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-position: top;
+}
+.banner input[type=text]{
+    border-radius: 40px;
+    padding: 15px 50px;
+    border: none;
+    font-size: 1.2rem;
+    
+}
+.banner input[type=button]{
+    border-radius: 40px;
+    padding: 15px 30px;
+    border: none;
+    background-color: rgb(249, 25, 68);
+    color: rgb(255, 255, 255);
+    font-size: 1.1rem;
+    margin-top: 15px;
+}
